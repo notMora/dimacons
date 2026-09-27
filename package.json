@@ -1,0 +1,12 @@
+{
+  "name": "dimacons-web",
+  "private": true,
+  "scripts": {
+    "build:css": "node node_modules/tailwindcss/lib/cli.js -i src/input.css -o assets/styles.css --minify",
+    "watch:css": "node node_modules/tailwindcss/lib/cli.js -i src/input.css -o assets/styles.css --watch",
+    "serve": "python3 -m http.server 8000"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
